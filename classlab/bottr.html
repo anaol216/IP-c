@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anaol Bootstrap Exercise</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header: Responsive Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div
+        class="container"
+        style="display: flex; justify-content: space-between"
+      >
+        <a class="navbar-brand mr-5" href="#">Bootstrap Exercise</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                More
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Dropdown Item 1</a></li>
+                <li><a class="dropdown-item" href="#">Dropdown Item 2</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Section -->
+    <div class="container my-5">
+      <!-- Typography -->
+      <div class="text-center">
+        <h1>Welcome to the Bootstrap Exercise</h1>
+        <p class="lead">
+          This is a responsive page demonstrating Bootstrap components and
+          utilities.
+        </p>
+      </div>
+
+      <!-- Table -->
+      <div class="mt-5">
+        <h3>Team Members</h3>
+        <table class="table fw-bold table-striped table-hover">
+          <thead class="table-dark">
+            <tr>
+              <th>Name</th>
+              <th>Age</th>
+              <th>Email</th>
+              <th>Role</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Alice Johnson</td>
+              <td>25</td>
+              <td>alicejohnson@example.com</td>
+              <td>Engineer</td>
+            </tr>
+            <tr>
+              <td>Bob Martinez</td>
+              <td>29</td>
+              <td>bobmartinez@example.com</td>
+              <td>Product Manager</td>
+            </tr>
+            <tr>
+              <td>Clara Brown</td>
+              <td>32</td>
+              <td>clarabrown@example.com</td>
+              <td>Team Lead</td>
+            </tr>
+            <tr>
+              <td>David White</td>
+              <td>27</td>
+              <td>davidwhite@example.com</td>
+              <td>UX Designer</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Alerts -->
+      <div class="mt-5">
+        <h3>Notifications</h3>
+        <div class="alert alert-success" role="alert">
+          Successfully added a new member!
+        </div>
+        <div class="alert alert-danger" role="alert">
+          Failed to update the record!
+        </div>
+        <div class="alert alert-warning" role="alert">
+          Low disk space on the server!
+        </div>
+        <div class="alert alert-info" role="alert">
+          Scheduled maintenance on Friday.
+        </div>
+      </div>
+
+      <!-- Card -->
+      <div class="card mt-5" style="width: 18rem">
+        <img
+          src="https://via.placeholder.com/150"
+          class="card-img-top"
+          alt="Card Image"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Team Profile</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Alice Johnson</h6>
+          <p class="card-text">
+            Alice is a talented software engineer specializing in front-end
+            development and UI frameworks.
+          </p>
+          <a href="#" class="btn btn-primary">View Profile</a>
+        </div>
+      </div>
+
+      <!-- Grid -->
+      <div class="row mt-5">
+        <h3 class="mb-3">Portfolio</h3>
+        <div class="col-sm-4 col-md-3 bg-primary text-white p-3">Project 1</div>
+        <div class="col-sm-4 col-md-3 bg-secondary text-white p-3">
+          Project 2
+        </div>
+        <div class="col-sm-4 col-md-3 bg-success text-white p-3">Project 3</div>
+        <div class="col-sm-4 col-md-3 bg-danger text-white p-3">Project 4</div>
+        <div class="col-sm-4 col-md-3 bg-warning text-dark p-3">Project 5</div>
+        <div class="col-sm-4 col-md-3 bg-info text-dark p-3">Project 6</div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <p>&copy; 2024 Bootstrap Exercise. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
