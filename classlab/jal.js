@@ -75,3 +75,6 @@ dec = () => {
 inc = () => {
     document.getElementById("count").innerHTML = ++count; // Increment first
 };
+function changeColor() {
+    document.getElementById("color").style.color = "red";
+}
