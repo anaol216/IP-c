@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#head {
+    background-color: #ffffff;
+    color: rgb(204, 31, 190);
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+#logo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: italic;
+    margin: 0;
+    border: 1px solid rgb(204, 31, 190);
+    border-radius: 30px;
+    box-shadow: 1px 1px 5px rgb(204, 31, 190);
+    padding: 5px 10px;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding-right: 10px;
+    display: flex;
+}
+
+.nav ul li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+}
+
+.nav ul li a {
+    color: rgb(24, 157, 219);
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid rgb(135, 31, 204);
+    border-radius: 30px;
+    padding: 5px 10px;
+    transition: background-color 1s, color 1s, box-shadow 1s;
+    align-items: center;
+}
+
+.nav ul li a:hover {
+    background-color: rgb(135, 31, 204);
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgb(135, 31, 204);
+}
+
+.nav ul li a:active {
+    background-color: rgb(135, 31, 204);
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgb(135, 31, 204);
+}
+
+#home {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#homecontent {
+    max-width: 50%; /* Adjust the width as needed */
+    background-color: aqua;
+}
+
+#myimg {
+    max-width: 50%; /* Adjust the width as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    background-color: blue;
+}
+
+#myimg img {
+    max-width: 70%;
+    height: 100%;
+    display: inline;
+    border-radius: 50%; /* Optional: makes the image circular */
+}
+
+#home h3 {
+    font-size: 150px;
+    color: rgb(204, 31, 190);
+    margin: 0;
+}
+
+#home p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: black;
+    margin: 0 30px;
+    width: 70%;
+}
+
+#btn {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 20px;
+    padding-right: 40px;
+    max-width: 100%;
+    background-color: aquamarine;
+}
+
+#btn button {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 5px;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+#btn #contactme {
+    color: white;
+    border: none !important;
+    background-color: rgb(204, 31, 190);
+    box-shadow: 1px 1px 5px rgba(204, 31, 190, 0.8);
+}
+
+#btn #contactme:hover {
+    color: rgb(204, 31, 190);
+    background-color: #ffffff;
+    border: 1px solid rgba(204, 31, 190, 0.8);
+    box-shadow: 1px 1px 5px rgba(204, 31, 190, 0.8);
+    transform: scale(1.1, 1.1);
+}
+
+#btn #hire {
+    color: rgb(204, 31, 190);
+    background-color: #ffffff;
+    border: 1px solid rgba(204, 31, 190, 0.8);
+}
+
+#btn #hire:hover {
+    color: white;
+    border: none !important;
+    background-color: rgb(204, 31, 190);
+    box-shadow: 1px 1px 5px rgba(204, 31, 190, 0.8);
+    transform: scale(1.1, 1.1);
+}
+/* make the image to align on the left side of id homecontent */
+

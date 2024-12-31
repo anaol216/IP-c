@@ -1,0 +1,13 @@
+
+      // Step 1: Declare variables
+      let num1 = 5; // First number
+      let num2 = 10; // Second number
+      // Step 2: Add the numbers
+      let sum = num1 + num2;
+      // Step 3: Show the result in an alert
+      alert("The sum of " + num1 + " and " + num2 + " is: " + sum);
+      // Step 4: Loop through numbers from 1 to the sum
+      alert("Now let's loop through numbers from 1 to " + sum);
+      for (let i = 1; i <= sum; i++) {
+        alert("Number: " + i); // Log the number to the console
+      }

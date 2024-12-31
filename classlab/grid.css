@@ -1,0 +1,33 @@
+/* Container Grid Styling */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) 2fr; /* Two narrow columns followed by one wide column */
+  grid-template-rows: auto auto 150px; /* Dynamic height for the first two rows, fixed height for the third row */
+  gap: 10px; /* Adds spacing between grid items */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+}
+
+/* Individual Items Styling */
+.item {
+  background-color: lightblue;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Featured Item Styling */
+.featured {
+  grid-column: 1 / -1; /* Spans all three columns */
+  grid-row: 1; /* Occupies the first row */
+  background-color: #ffcccb;
+}
+
+/* Specific Item Placement */
+.item:nth-child(3) {
+  grid-column: 2; /* Places in the second column */
+  grid-row: 2; /* Places in the second row */
+}
