@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(255, 174, 0);
+}
+.headi{
+    display: flex;
+    justify-content: space-between;
+}
+.headi a #user-id{
+    color: black;
+}
+.brand_name img{
+    width: 60px;
+    height: 30px;
+    padding: 10px 20px;
+}
+.nav{
+ 
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end; /* Aligns items to the right */
+   /* background-color: rgba(138, 103, 7, 0.466); */
+   max: height 100vh;
+}
+.nav a{
+    margin-left: 20px;
+    color: white;
+    background-color: rgb(189, 114, 23); 
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+}
+#doji-special {
+    display: flex; /* Use flexbox to align items */
+    justify-content: flex-end;
+    align-items: center;
+}  
+img {
+    overflow: hidden; /* Hide overflow for rounding */
+    border-radius: 50%; /* Makes the image round */
+    margin-right: 150px;
+    width: 1500px; /* Responsive width */
+    height: auto; /* Maintain aspect ratio */
+}
+#doji-special p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
