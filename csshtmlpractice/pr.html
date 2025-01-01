@@ -30,6 +30,79 @@
       id="search"
       placeholder="Search Google or type a URL"
     />
+    <div id="common-sites">
+      <a href="https://www.google.com">
+        <img
+          src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+          alt="Google"
+          width="100"
+          height="50">
+        </a>
+      <a href="https://www.youtube.com">
+        <img
+          src="https://www.youtube.com/img/desktop/yt_1200.png"
+          alt="YouTube"
+          width="100"
+          height="50">
+        </a>
+      </a>
+      <a href="https://www.facebook.com">
+        <img
+          src="https://www.facebook.com/images/fb_icon_325x325.png"
+          alt="Facebook"
+          width="100"
+          height="50">
+        </a>
+      </a>
+      <a href="https://www.amazon.com">
+        <img
+          src="https://www.amazon.com/favicon.ico"
+          alt="Amazon"
+          width="100"
+          height="50">
+        </a>
+      </a>
+      <a href="https://www.twitter.com">
+        <img
+          src="https://www.twitter.com/favicon.ico"
+          alt="Twitter"
+          width="100"
+          height="50">
+        </a>
+      </a>
+      <a href="https://www.instagram.com">
+        <img
+          src="https://www.instagram.com/favicon.ico"
+          alt="Instagram"
+          width="100"
+          height="50">
+        </a>
+      </a>
+      <a href="https://www.linkedin.com">
+        <img
+          src="https://www.linkedin.com/favicon.ico"
+          alt="LinkedIn"
+          width="100"
+          height="50">
+        </a>
+      </a>
+      <a href="https://www.reddit.com">
+        <img
+          src="https://www.reddit.com/favicon.ico"
+          alt="Reddit"
+          width="100"
+          height="50">
+        </a>
+      </a>
+      <a href="https://www.pinterest.com">
+        <img
+          src="https://www.pinterest.com/favicon.ico"
+          alt="Pinterest"
+          width="100"
+          height="50">
+        </a>
+      </a>
+    </div>
     <script>
       const search = document.getElementById("search");
       search.addEventListener("keyup", (e) => {
@@ -37,6 +110,17 @@
           window.location.href = `https://www.google.com/search?q=${search.value}`;
         }
       });
+
+      // Typing effect for search input field
+      new Typed("#search", {
+        strings: ["Search Google or type a URL"],
+        typeSpeed: 60,
+        backSpeed: 30,
+        loop: true,
+      });
+          // Responsive design for search input field on smaller screens
+      const searchContainer = document.querySelector(".search-container");
+
     </script>
   </body>
 </html>
