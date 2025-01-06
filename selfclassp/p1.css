@@ -41,6 +41,7 @@ button{
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     animation: identifier 2s infinite;
+    
     transition: transform 0.5s ease;
     cursor: pointer;
     overflow: hidden;
@@ -69,7 +70,7 @@ button{
     overflow: hidden;
     background-color: rgb(199, 195, 195) !important;
     border: 1px solid rgb(127, 115, 115) !important;
-    border-shadow: 1px 1px 10px rgba(127, 115, 115,0.1);
+    /* border-shadow: 1px 1px 10px rgba(127, 115, 115,0.1); */
     border-radius: 10px;
 
 }
@@ -86,7 +87,7 @@ button{
     background-color: lightblue;
     border-radius: 5px;
     cursor: pointer;
-    border-shadow: 0 0 10px rgba(0,0,0,0.1);
+    /* border-shadow: 0 0 10px rgba(0,0,0,0.1); */
     transition: background-color 0.3s ease;
     
 }
