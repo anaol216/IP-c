@@ -99,7 +99,7 @@ header p span{
     z-index: 1;
 }
 .colors .item3 {
-    grid-row: 1/6;
+    grid-row: 1/5;
     grid-column: 3/span 2;
     background-color: #9c410f;
     border-radius: 10px;
@@ -131,18 +131,33 @@ header p span{
     height: 225px;
     z-index: 999;
 }
-.blog-flex{
+.blog-flex {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;    
-    margin-top: 20px;
-    padding: 10px;
+    flex-direction: row;
     background-color: #a14646;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 20px;
 }
-.blog-flex div{
-    width: 100%;
-    height: 100%;
+.blog-flex div {
+    
+    width: 20%;
+    height: auto !important;
+    padding: 10px;
+    margin: 10px;
+    margin-right: 20px;
+    background-color: #a7a400;
     border-radius: 10px;
-    margin-top: 10px;
+    animation: slide 1s ease infinite;
+}
+@keyframes slide {
+    0% {
+        transform: translateX(-100%);
+    }
+    50% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
 }
